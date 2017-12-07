@@ -7,6 +7,7 @@ Group list :
 
 
 ##### [M1] Do you think we can use the current solution for a production environment? What are the main problems when deploying it in a production environment?
+We know that if a server has issues ans stop working, all tasks which were running would be transfered to another one. This architecture is great when it has more than two containers. During Chrismas period, those two containers will be overloaded and it's impossible to insure the hight disponibility of service. We should be able to add more containers in order to have a good working environement.  
 
 ##### [M2] Describe what you need to do to add new webapp container to the infrastructure. Give the exact steps of what you have to do without modifiying the way the things are done. Hint: You probably have to modify some configuration and script files in a Docker image.
 
