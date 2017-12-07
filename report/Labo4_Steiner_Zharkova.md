@@ -21,7 +21,7 @@ Group list :
 ###Deliverables:
 
 * Take a screenshot of the stats page of HAProxy at http://192.168.42.42:1936. You should see your backend nodes.
- ![](task1_1.jpg)
+ ![](/images/delivrable1.png)
 
 * Give the URL of your repository URL in the lab report.
 
