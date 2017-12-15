@@ -37,7 +37,7 @@ Group list :
 
 1. *Take a screenshot of the stats page of HAProxy at http://192.168.42.42:1936. You should see your backend nodes.*
 
- ![](images/delivrable1.png)
+ ![](images/delivrable1.PNG)
 
 2. *Give the URL of your repository URL in the lab report.*
 
@@ -49,7 +49,7 @@ https://github.com/asuto4ka/Teaching-HEIGVD-AIT-2016-Labo-Docker
 
 1. *Take a screenshot of the stats page of HAProxy at http://192.168.42.42:1936. You should see your backend nodes. It should be really similar to the screenshot of the previous task.*
 
- ![](images/task1_1.png)
+ ![](images/task1_1.PNG)
 
 2. *Describe your difficulties for this task and your understanding of what is happening during this task. Explain in your own words why are we installing a process supervisor. Do not hesitate to do more research and to find more articles on that topic to illustrate the problem.*
 
@@ -63,7 +63,7 @@ As well as it sais it the begging of the task, we unstall process supevisor in o
 
 ### <a name="task2"></a> Task 2: Add a tool to manage membership in the web server cluster ###
 
- ![](images/task2_preuve_connectivite_ping.png)
+ ![](images/task2_preuve_connectivite_ping.PNG)
 
 **Deliverables:**
 
