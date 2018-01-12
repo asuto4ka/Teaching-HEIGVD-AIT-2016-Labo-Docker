@@ -197,11 +197,9 @@ https://github.com/asuto4ka/Teaching-HEIGVD-AIT-2016-Labo-Docker
 
 	- [HAProxy configuration file](../logs/task5/task5_last_one_haproxy.txt)
 
-This file contains both the command output and docker ps output.
-
+	This file contains both the command output and docker ps output.
 
  	- [docker ps](images/task5_docker_ps-only_one.PNG)
-
 
 
 4. *(Optional:) Propose a different approach to manage the list of backend nodes. You do not need to implement it. You can also propose your own tools or the ones you discovered online. In that case, do not forget to cite your references.*
@@ -218,7 +216,6 @@ This file contains both the command output and docker ps output.
 	*Also provide the output of docker ps in a log file. At least one file is expected. You can provide one output per step of your experimentation according to your screenshots.*
 
  	- [docker ps](images/task6_docker_ps_5_nodes.PNG)
-
 
 
 2. *Give your own feelings about the final solution. Propose improvements or ways to do the things differently. If any, provide references to your readings for the improvements.*
