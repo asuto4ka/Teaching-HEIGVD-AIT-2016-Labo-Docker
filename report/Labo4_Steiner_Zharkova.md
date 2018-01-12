@@ -70,7 +70,7 @@ https://github.com/asuto4ka/Teaching-HEIGVD-AIT-2016-Labo-Docker
 
  ![](images/task1_1.PNG)
 
-	As we can see this screenshot is very similar to the one from the previous task, which means that adding the process supervisor did not have a negative impact on the system.
+  As we can see this screenshot is very similar to the one from the previous task, which means that adding the process supervisor did not have a negative impact on the system.
 
 2. *Describe your difficulties for this task and your understanding of what is happening during this task. Explain in your own words why are we installing a process supervisor. Do not hesitate to do more research and to find more articles on that topic to illustrate the problem.*
 
@@ -87,9 +87,9 @@ https://github.com/asuto4ka/Teaching-HEIGVD-AIT-2016-Labo-Docker
 
 1. *Provide the docker log output for each of the containers: ha, s1 and s2. You need to create a folder logs in your repository to store the files separately from the lab report. For each lab task create a folder and name it using the task number. No need to create a folder when there are no logs.*
 
- - [Log output for ha](../logs/task1/ha.logs)
- - [Log output for s1](../logs/task1/s1.logs)
- - [Log output for s2](../logs/task1/s2.logs)
+ - [Log output for ha](../logs/task2/ha.logs)
+ - [Log output for s1](../logs/task2/s1.logs)
+ - [Log output for s2](../logs/task2/s2.logs)
 
 
 2. *Give the answer to the question about the existing problem with the current solution.*
@@ -156,7 +156,7 @@ https://github.com/asuto4ka/Teaching-HEIGVD-AIT-2016-Labo-Docker
 
  	- [HAProxy config file when ha started](../logs/task4/task4_start_ha.PNG)
  	- [HAProxy config file when s1 started](../logs/task4/task4_start_s1.PNG)
- 	- [HaProxy config file when s2 started](../logs/task4/task4_start_s2)
+ 	- [HaProxy config file when s2 started](../logs/task4/task4_start_s2.PNG)
    
 	*In addition, provide a log file containing the output of the `docker ps` console and another file (per container) with `docker inspect <container>`. Four files are expected.*
 
@@ -172,7 +172,7 @@ https://github.com/asuto4ka/Teaching-HEIGVD-AIT-2016-Labo-Docker
 
 ### <a name="task5"></a> Task 5: Generate a new load balancer configuration when membership changes ###
 
-**Deliverables:*
+**Deliverables:**
 
 1. *Provide the file /usr/local/etc/haproxy/haproxy.cfg generated in the ha container after each step. Three files are expected.*
 
@@ -195,9 +195,10 @@ https://github.com/asuto4ka/Teaching-HEIGVD-AIT-2016-Labo-Docker
 
 3. *Provide the configuration file after you stopped one container and the list of nodes present in the /nodes folder. One file expected with the command output. Two files are expected. In addition, provide a log file containing the output of the docker ps console. One file expected.*
 
-	[HAProxy configuration file](../logs/task5/task5_last_one_haproxy.txt)
+	- [HAProxy configuration file](../logs/task5/task5_last_one_haproxy.txt)
 
-This file contains both thw command output and docker ps output
+This file contains both the command output and docker ps output.
+
 
  	- [docker ps](images/task5_docker_ps-only_one.PNG)
 
